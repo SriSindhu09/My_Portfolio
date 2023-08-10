@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="images/logo.png" class="logo"></img> -->
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <i class="fas fa-times"></i>
+                </ul>
+                <i class="fas fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                
+                <h1>Hi, I'm <br><span>Sandepudi Sri Sindhu</span></h1>
+                <p>Web Developer</p>
+            </div>
+        </div>
+    </div>
+    <!-- ----------ABOUT---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="https://media.licdn.com/dms/image/D5603AQHMWPrPkJ1c3g/profile-displayphoto-shrink_800_800/0/1688024666565?e=1697068800&v=beta&t=xOlCqtWU6Bq3LWxNzGip6-zFxE_1HHVIYmV9Zh1AE0E">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Passionate about web development and Android app creation, I thrive on crafting seamless digital experiences that blend form and function. With a keen eye for design and a dedication to innovation, I bring a unique blend of creativity and technical expertise to every project I undertake.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <!-- <p class="tab-links" onclick="openTab('experience')">Experience</p> -->
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Java</span></li>
+                            <li><span>HTML</span></li>
+                            <li><span>CSS</span></li>
+                            <li><span>SQL</span></li>
+                            <li><span>Java Script</span></li>
+                        </ul>
+                    </div>
+                 
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <!-- <li><span>2016</span><br>UI/UX Design training at ET Institute</li> -->
+                            <li><span>Expected 2024</span><br>B.Tech from Vel Tech University</li>
+                            <li><span>2014</span><br>Intermediate from Narayana Junior College,Ongole</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+
+    <!-- ----------PORTFOLIO--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1xu2ePCPxzLFVtP3APR6Rkdfq0dLdZo1WHw&usqp=CAU" alt="">
+                    <div class="layer">
+                        <h2>Detection and Classification of DDOS Attacks</h2>
+                        <p> • Developed a ddos attack detector using Java, machine learning, and MY SQL.<br>
+                            • Gives the accuracy rate and the average using machine learning algorithms.<br>
+                            • Has a sophisticated user interface where all the columns are described properly.<br>
+                            • Generates the weka tool in which the algorithms are displayed.</p>
+                        <a href="https://github.com/SriSindhu09/Detection-and-Classification-of-DDOS-attacks-using-Machine-Learning-Algorithms"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://www.apollospectra.com/backend/web/blog-images/1660366334Breast%20cancer%20diagnosis_%20First%20steps%20and%20treatment.jpg" alt="">
+                    <div class="layer">
+                        <h2>Breast Cancer Diagnosis Prediction</h2>
+                        <p> • Developed breast cancer diagnosis prediction model using scikit-learn, achieving 96.5% accuracy on the test set.<br>
+                            • Optimized Random Forest algorithm, achieving 97.3% accuracy and enhanced generalization.<br>
+                            • Utilized advanced techniques to enhance model performance and reliability.</p>
+                        <a href="https://github.com/SriSindhu09/Breast-Cancer-Diagnosis-Prediction"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://i.imgur.com/HLwAaEG.png" alt="">
+                    <div class="layer">
+                        <h2>Portfolio Website</h2>
+                        <p> • Developed a Personal website showcasing web development skills and projects.<br>
+                            • Used HTML, CSS, and JavaScript for frontend development.<br>
+                            • Designed with responsiveness to ensure optimal display and accessibility across different devices</p>
+                        <a href="https://github.com/SriSindhu09/My_Portfolio"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See more</a>
+        </div>
+    </div>
+
+
+
+    
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <div class="certificates">
+          <a href="Robotic Process Automation(RPA) Virtual Internship" target="_blank" class="certificate-card">
+            <h3>Robotic Process Automation(RPA) Virtual Internship</h3>
+          </a>
+          <a href="https://drive.google.com/file/d/1FmB0SKDMfDa9B2yyzeaORaSz9F1XRrFS/view" target="_blank" class="certificate-card">
+            <h3>Machine learning with python</h3>
+          </a> 
+          <a href="https://drive.google.com/file/d/1FmB0SKDMfDa9B2yyzeaORaSz9F1XRrFS/view" target="_blank" class="certificate-card">
+            <h3>Programming essentials in C</h3>
+          </a>
+          <a href="https://drive.google.com/file/d/1GkU1u7ECaAnnbL7gJ-_-wg0zy2j2mRIG/view?usp=sharing" target="_blank" class="certificate-card">
+            <h3>Software Engineering Virtual Experience Program</h3>
+          </a> 
+          <a href="https://drive.google.com/file/d/1-g6__bi-rmL3W4Iww7DIW5Dl1WYsFtpA/view" target="_blank" class="certificate-card">
+            <h3>Android app development</h3>
+          </a> 
+         
+    
+        </div>
+      </section>
+
+    <!-- ----------CONTACT---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> srisindhu.sandepudi@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>+91 6302446390</p>
+                    <div class="social-icons">
+                       
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1iQ_SkXteWuthuKYMx9GrwXV51ibz-06t/view?usp=drivesdk" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn3">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Made with <i class="fas fa-heart"></i> by Sri Sindhu</p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tabLinks = document.getElementsByClassName('tab-links');
+        var tabContents = document.getElementsByClassName('tab-contents');
+
+        function openTab(tabName) {
+            for (tabLink of tabLinks) {
+                tabLink.classList.remove('active-link');
+            }
+            for (tabContent of tabContents) {
+                tabContent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabName).classList.add('active-tab');
+        }
+
+        // JavaScript for handling the mobile navigation menu
+        document.querySelector('.fas.fa-bars').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+
+        document.querySelector('.fas.fa-times').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.remove('show');
+        });
+
+    </script>
+</body>
+
+</html>
